@@ -1,0 +1,26 @@
+{
+    "name": "Employees",
+    "version": "1.0.0",
+    "description": "10-OO",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest --verbose test/*"
+    },
+    "repository": {
+        "type": "",
+        "url": "git+https://github.com/jocelynvalladares/10-Object-Oriented"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/jocelynvalladares/10-Object-Oriented",
+    "dependencies": {
+        "inquirer": "^6.5.2"
+    },
+    "devDependencies": {
+        "jest": "^24.8.0"
+    }
+}
