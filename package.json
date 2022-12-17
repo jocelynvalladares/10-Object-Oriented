@@ -1,26 +1,28 @@
 {
-    "name": "Employees",
+    "name": "team-profile-generator",
     "version": "1.0.0",
-    "description": "10-OO",
+    "description": "app to create team profile generator ",
     "main": "index.js",
     "directories": {
-        "lib": "lib",
-        "test": "test"
+      "lib": "lib"
     },
     "scripts": {
-        "test": "jest --verbose test/*"
+      "test": "jest"
     },
     "repository": {
-        "type": "",
-        "url": "git+https://github.com/jocelynvalladares/10-Object-Oriented"
+      "type": "git",
+      "url": "https://github.com/jocelynvalladares/10-Object-Oriented"
     },
-    "author": "",
+    "author": "Nicole Wallace",
     "license": "ISC",
-    "homepage": "https://github.com/jocelynvalladares/10-Object-Oriented",
-    "dependencies": {
-        "inquirer": "^6.5.2"
+    "bugs": {
+      "url": "https://github.com/jocelynvalladares/10-Object-Oriented/issues"
     },
+    "homepage": "https://github.com/jocelynvalladares/10-Object-Oriented/blob/main/README.md",
     "devDependencies": {
-        "jest": "^24.8.0"
+      "jest": "^26.0.1"
+    },
+    "dependencies": {
+      "inquirer": "^7.1.0"
     }
-}
+  }
